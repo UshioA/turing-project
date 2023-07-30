@@ -1,0 +1,14 @@
+.cache/
+*.o
+*.out
+*.log
+*.gz
+*.toc
+*.aux
+_minted-report
+*.pdf
+turing
+bin/
+build/
+*.zip
+.vscode
