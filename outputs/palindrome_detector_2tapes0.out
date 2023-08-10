@@ -1,0 +1,58 @@
+Input: 
+==================== RUN ====================
+Step   : 0
+State  : 0
+Index0 : 0 
+Tape0  : _ 
+Head0  : ^ 
+Index1 : 0 
+Tape1  : _ 
+Head1  : ^ 
+---------------------------------------------
+Step   : 1
+State  : accept
+Index0 : 0 
+Tape0  : _ 
+Head0  : ^ 
+Index1 : 0 
+Tape1  : _ 
+Head1  : ^ 
+---------------------------------------------
+Step   : 2
+State  : accept2
+Index0 : 0 1 
+Tape0  : t _ 
+Head0  :   ^ 
+Index1 : 0 
+Tape1  : _ 
+Head1  : ^ 
+---------------------------------------------
+Step   : 3
+State  : accept3
+Index0 : 0 1 2 
+Tape0  : t r _ 
+Head0  :     ^ 
+Index1 : 0 
+Tape1  : _ 
+Head1  : ^ 
+---------------------------------------------
+Step   : 4
+State  : accept4
+Index0 : 0 1 2 3 
+Tape0  : t r u _ 
+Head0  :       ^ 
+Index1 : 0 
+Tape1  : _ 
+Head1  : ^ 
+---------------------------------------------
+Step   : 5
+State  : halt_accept
+Index0 : 0 1 2 3 
+Tape0  : t r u e 
+Head0  :       ^ 
+Index1 : 0 
+Tape1  : _ 
+Head1  : ^ 
+---------------------------------------------
+Result: true
+==================== END ====================

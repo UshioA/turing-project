@@ -1,6 +1,5 @@
 .cache/
 *.o
-*.out
 *.log
 *.gz
 *.toc

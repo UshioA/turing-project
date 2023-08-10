@@ -1,0 +1,1876 @@
+Input: 11101111111
+==================== RUN ====================
+Step   : 0
+State  : 0
+Index0 : 0 1 2 3 4 5 6 7 8 9 10 
+Tape0  : 1 1 1 0 1 1 1 1 1 1 1  
+Head0  : ^                      
+Index1 : 0 
+Tape1  : _ 
+Head1  : ^ 
+Index2 : 0 
+Tape2  : _ 
+Head2  : ^ 
+---------------------------------------------
+Step   : 1
+State  : pre1
+Index0 : 0 1 2 3 4 5 6 7 8 9 10 
+Tape0  : 1 1 1 0 1 1 1 1 1 1 1  
+Head0  : ^                      
+Index1 : 0 
+Tape1  : _ 
+Head1  : ^ 
+Index2 : 0 
+Tape2  : _ 
+Head2  : ^ 
+---------------------------------------------
+Step   : 2
+State  : pre1
+Index0 : 0 1 2 3 4 5 6 7 8 9 10 
+Tape0  : 1 1 1 0 1 1 1 1 1 1 1  
+Head0  :   ^                    
+Index1 : 0 1 
+Tape1  : 1 _ 
+Head1  :   ^ 
+Index2 : 0 
+Tape2  : _ 
+Head2  : ^ 
+---------------------------------------------
+Step   : 3
+State  : pre1
+Index0 : 0 1 2 3 4 5 6 7 8 9 10 
+Tape0  : 1 1 1 0 1 1 1 1 1 1 1  
+Head0  :     ^                  
+Index1 : 0 1 2 
+Tape1  : 1 1 _ 
+Head1  :     ^ 
+Index2 : 0 
+Tape2  : _ 
+Head2  : ^ 
+---------------------------------------------
+Step   : 4
+State  : pre1
+Index0 : 0 1 2 3 4 5 6 7 8 9 10 
+Tape0  : 1 1 1 0 1 1 1 1 1 1 1  
+Head0  :       ^                
+Index1 : 0 1 2 3 
+Tape1  : 1 1 1 _ 
+Head1  :       ^ 
+Index2 : 0 
+Tape2  : _ 
+Head2  : ^ 
+---------------------------------------------
+Step   : 5
+State  : pre2
+Index0 : 0 1 2 3 4 5 6 7 8 9 10 
+Tape0  : 1 1 1 1 1 1 1 1 1 1 1  
+Head0  :         ^              
+Index1 : 0 1 2 
+Tape1  : 1 1 1 
+Head1  :     ^ 
+Index2 : 0 
+Tape2  : _ 
+Head2  : ^ 
+---------------------------------------------
+Step   : 6
+State  : pre2
+Index0 : 0 1 2 3 4 5 6 7 8 9 10 
+Tape0  : 1 1 1 1 1 1 1 1 1 1 1  
+Head0  :           ^            
+Index1 : 0 1 2 
+Tape1  : 1 1 1 
+Head1  :     ^ 
+Index2 : 0 1 
+Tape2  : 1 _ 
+Head2  :   ^ 
+---------------------------------------------
+Step   : 7
+State  : pre2
+Index0 : 0 1 2 3 4 5 6 7 8 9 10 
+Tape0  : 1 1 1 1 1 1 1 1 1 1 1  
+Head0  :             ^          
+Index1 : 0 1 2 
+Tape1  : 1 1 1 
+Head1  :     ^ 
+Index2 : 0 1 2 
+Tape2  : 1 1 _ 
+Head2  :     ^ 
+---------------------------------------------
+Step   : 8
+State  : pre2
+Index0 : 0 1 2 3 4 5 6 7 8 9 10 
+Tape0  : 1 1 1 1 1 1 1 1 1 1 1  
+Head0  :               ^        
+Index1 : 0 1 2 
+Tape1  : 1 1 1 
+Head1  :     ^ 
+Index2 : 0 1 2 3 
+Tape2  : 1 1 1 _ 
+Head2  :       ^ 
+---------------------------------------------
+Step   : 9
+State  : pre2
+Index0 : 0 1 2 3 4 5 6 7 8 9 10 
+Tape0  : 1 1 1 1 1 1 1 1 1 1 1  
+Head0  :                 ^      
+Index1 : 0 1 2 
+Tape1  : 1 1 1 
+Head1  :     ^ 
+Index2 : 0 1 2 3 4 
+Tape2  : 1 1 1 1 _ 
+Head2  :         ^ 
+---------------------------------------------
+Step   : 10
+State  : pre2
+Index0 : 0 1 2 3 4 5 6 7 8 9 10 
+Tape0  : 1 1 1 1 1 1 1 1 1 1 1  
+Head0  :                   ^    
+Index1 : 0 1 2 
+Tape1  : 1 1 1 
+Head1  :     ^ 
+Index2 : 0 1 2 3 4 5 
+Tape2  : 1 1 1 1 1 _ 
+Head2  :           ^ 
+---------------------------------------------
+Step   : 11
+State  : pre2
+Index0 : 0 1 2 3 4 5 6 7 8 9 10 
+Tape0  : 1 1 1 1 1 1 1 1 1 1 1  
+Head0  :                     ^  
+Index1 : 0 1 2 
+Tape1  : 1 1 1 
+Head1  :     ^ 
+Index2 : 0 1 2 3 4 5 6 
+Tape2  : 1 1 1 1 1 1 _ 
+Head2  :             ^ 
+---------------------------------------------
+Step   : 12
+State  : pre2
+Index0 : 0 1 2 3 4 5 6 7 8 9 10 11 
+Tape0  : 1 1 1 1 1 1 1 1 1 1 1  _  
+Head0  :                        ^  
+Index1 : 0 1 2 
+Tape1  : 1 1 1 
+Head1  :     ^ 
+Index2 : 0 1 2 3 4 5 6 7 
+Tape2  : 1 1 1 1 1 1 1 _ 
+Head2  :               ^ 
+---------------------------------------------
+Step   : 13
+State  : pback0
+Index0 : 0 1 2 3 4 5 6 7 8 9 10 
+Tape0  : 1 1 1 1 1 1 1 1 1 1 1  
+Head0  :                     ^  
+Index1 : 0 1 2 
+Tape1  : 1 1 1 
+Head1  :     ^ 
+Index2 : 0 1 2 3 4 5 6 
+Tape2  : 1 1 1 1 1 1 1 
+Head2  :             ^ 
+---------------------------------------------
+Step   : 14
+State  : pback0
+Index0 : 0 1 2 3 4 5 6 7 8 9 
+Tape0  : 1 1 1 1 1 1 1 1 1 1 
+Head0  :                   ^ 
+Index1 : 0 1 2 
+Tape1  : 1 1 1 
+Head1  :     ^ 
+Index2 : 0 1 2 3 4 5 6 
+Tape2  : 1 1 1 1 1 1 1 
+Head2  :             ^ 
+---------------------------------------------
+Step   : 15
+State  : pback0
+Index0 : 0 1 2 3 4 5 6 7 8 
+Tape0  : 1 1 1 1 1 1 1 1 1 
+Head0  :                 ^ 
+Index1 : 0 1 2 
+Tape1  : 1 1 1 
+Head1  :     ^ 
+Index2 : 0 1 2 3 4 5 6 
+Tape2  : 1 1 1 1 1 1 1 
+Head2  :             ^ 
+---------------------------------------------
+Step   : 16
+State  : pback0
+Index0 : 0 1 2 3 4 5 6 7 
+Tape0  : 1 1 1 1 1 1 1 1 
+Head0  :               ^ 
+Index1 : 0 1 2 
+Tape1  : 1 1 1 
+Head1  :     ^ 
+Index2 : 0 1 2 3 4 5 6 
+Tape2  : 1 1 1 1 1 1 1 
+Head2  :             ^ 
+---------------------------------------------
+Step   : 17
+State  : pback0
+Index0 : 0 1 2 3 4 5 6 
+Tape0  : 1 1 1 1 1 1 1 
+Head0  :             ^ 
+Index1 : 0 1 2 
+Tape1  : 1 1 1 
+Head1  :     ^ 
+Index2 : 0 1 2 3 4 5 6 
+Tape2  : 1 1 1 1 1 1 1 
+Head2  :             ^ 
+---------------------------------------------
+Step   : 18
+State  : pback0
+Index0 : 0 1 2 3 4 5 
+Tape0  : 1 1 1 1 1 1 
+Head0  :           ^ 
+Index1 : 0 1 2 
+Tape1  : 1 1 1 
+Head1  :     ^ 
+Index2 : 0 1 2 3 4 5 6 
+Tape2  : 1 1 1 1 1 1 1 
+Head2  :             ^ 
+---------------------------------------------
+Step   : 19
+State  : pback0
+Index0 : 0 1 2 3 4 
+Tape0  : 1 1 1 1 1 
+Head0  :         ^ 
+Index1 : 0 1 2 
+Tape1  : 1 1 1 
+Head1  :     ^ 
+Index2 : 0 1 2 3 4 5 6 
+Tape2  : 1 1 1 1 1 1 1 
+Head2  :             ^ 
+---------------------------------------------
+Step   : 20
+State  : pback0
+Index0 : 0 1 2 3 
+Tape0  : 1 1 1 1 
+Head0  :       ^ 
+Index1 : 0 1 2 
+Tape1  : 1 1 1 
+Head1  :     ^ 
+Index2 : 0 1 2 3 4 5 6 
+Tape2  : 1 1 1 1 1 1 1 
+Head2  :             ^ 
+---------------------------------------------
+Step   : 21
+State  : pback0
+Index0 : 0 1 2 
+Tape0  : 1 1 1 
+Head0  :     ^ 
+Index1 : 0 1 2 
+Tape1  : 1 1 1 
+Head1  :     ^ 
+Index2 : 0 1 2 3 4 5 6 
+Tape2  : 1 1 1 1 1 1 1 
+Head2  :             ^ 
+---------------------------------------------
+Step   : 22
+State  : pback0
+Index0 : 0 1 
+Tape0  : 1 1 
+Head0  :   ^ 
+Index1 : 0 1 2 
+Tape1  : 1 1 1 
+Head1  :     ^ 
+Index2 : 0 1 2 3 4 5 6 
+Tape2  : 1 1 1 1 1 1 1 
+Head2  :             ^ 
+---------------------------------------------
+Step   : 23
+State  : pback0
+Index0 : 0 
+Tape0  : 1 
+Head0  : ^ 
+Index1 : 0 1 2 
+Tape1  : 1 1 1 
+Head1  :     ^ 
+Index2 : 0 1 2 3 4 5 6 
+Tape2  : 1 1 1 1 1 1 1 
+Head2  :             ^ 
+---------------------------------------------
+Step   : 24
+State  : pback0
+Index0 : 1 
+Tape0  : _ 
+Head0  : ^ 
+Index1 : 0 1 2 
+Tape1  : 1 1 1 
+Head1  :     ^ 
+Index2 : 0 1 2 3 4 5 6 
+Tape2  : 1 1 1 1 1 1 1 
+Head2  :             ^ 
+---------------------------------------------
+Step   : 25
+State  : pback1
+Index0 : 0 
+Tape0  : _ 
+Head0  : ^ 
+Index1 : 0 1 2 
+Tape1  : 1 1 1 
+Head1  :     ^ 
+Index2 : 0 1 2 3 4 5 6 
+Tape2  : 1 1 1 1 1 1 1 
+Head2  :             ^ 
+---------------------------------------------
+Step   : 26
+State  : pback1
+Index0 : 0 
+Tape0  : _ 
+Head0  : ^ 
+Index1 : 0 1 2 
+Tape1  : 1 1 1 
+Head1  :   ^   
+Index2 : 0 1 2 3 4 5 6 
+Tape2  : 1 1 1 1 1 1 1 
+Head2  :             ^ 
+---------------------------------------------
+Step   : 27
+State  : pback1
+Index0 : 0 
+Tape0  : _ 
+Head0  : ^ 
+Index1 : 0 1 2 
+Tape1  : 1 1 1 
+Head1  : ^     
+Index2 : 0 1 2 3 4 5 6 
+Tape2  : 1 1 1 1 1 1 1 
+Head2  :             ^ 
+---------------------------------------------
+Step   : 28
+State  : pback1
+Index0 : 0 
+Tape0  : _ 
+Head0  : ^ 
+Index1 : 1 0 1 2 
+Tape1  : _ 1 1 1 
+Head1  : ^       
+Index2 : 0 1 2 3 4 5 6 
+Tape2  : 1 1 1 1 1 1 1 
+Head2  :             ^ 
+---------------------------------------------
+Step   : 29
+State  : pback2
+Index0 : 0 
+Tape0  : _ 
+Head0  : ^ 
+Index1 : 0 1 2 
+Tape1  : 1 1 1 
+Head1  : ^     
+Index2 : 0 1 2 3 4 5 6 
+Tape2  : 1 1 1 1 1 1 1 
+Head2  :             ^ 
+---------------------------------------------
+Step   : 30
+State  : pback2
+Index0 : 0 
+Tape0  : _ 
+Head0  : ^ 
+Index1 : 0 1 2 
+Tape1  : 1 1 1 
+Head1  : ^     
+Index2 : 0 1 2 3 4 5 6 
+Tape2  : 1 1 1 1 1 1 1 
+Head2  :           ^   
+---------------------------------------------
+Step   : 31
+State  : pback2
+Index0 : 0 
+Tape0  : _ 
+Head0  : ^ 
+Index1 : 0 1 2 
+Tape1  : 1 1 1 
+Head1  : ^     
+Index2 : 0 1 2 3 4 5 6 
+Tape2  : 1 1 1 1 1 1 1 
+Head2  :         ^     
+---------------------------------------------
+Step   : 32
+State  : pback2
+Index0 : 0 
+Tape0  : _ 
+Head0  : ^ 
+Index1 : 0 1 2 
+Tape1  : 1 1 1 
+Head1  : ^     
+Index2 : 0 1 2 3 4 5 6 
+Tape2  : 1 1 1 1 1 1 1 
+Head2  :       ^       
+---------------------------------------------
+Step   : 33
+State  : pback2
+Index0 : 0 
+Tape0  : _ 
+Head0  : ^ 
+Index1 : 0 1 2 
+Tape1  : 1 1 1 
+Head1  : ^     
+Index2 : 0 1 2 3 4 5 6 
+Tape2  : 1 1 1 1 1 1 1 
+Head2  :     ^         
+---------------------------------------------
+Step   : 34
+State  : pback2
+Index0 : 0 
+Tape0  : _ 
+Head0  : ^ 
+Index1 : 0 1 2 
+Tape1  : 1 1 1 
+Head1  : ^     
+Index2 : 0 1 2 3 4 5 6 
+Tape2  : 1 1 1 1 1 1 1 
+Head2  :   ^           
+---------------------------------------------
+Step   : 35
+State  : pback2
+Index0 : 0 
+Tape0  : _ 
+Head0  : ^ 
+Index1 : 0 1 2 
+Tape1  : 1 1 1 
+Head1  : ^     
+Index2 : 0 1 2 3 4 5 6 
+Tape2  : 1 1 1 1 1 1 1 
+Head2  : ^             
+---------------------------------------------
+Step   : 36
+State  : pback2
+Index0 : 0 
+Tape0  : _ 
+Head0  : ^ 
+Index1 : 0 1 2 
+Tape1  : 1 1 1 
+Head1  : ^     
+Index2 : 1 0 1 2 3 4 5 6 
+Tape2  : _ 1 1 1 1 1 1 1 
+Head2  : ^               
+---------------------------------------------
+Step   : 37
+State  : small
+Index0 : 0 
+Tape0  : _ 
+Head0  : ^ 
+Index1 : 0 1 2 
+Tape1  : 1 1 1 
+Head1  : ^     
+Index2 : 0 1 2 3 4 5 6 
+Tape2  : 1 1 1 1 1 1 1 
+Head2  : ^             
+---------------------------------------------
+Step   : 38
+State  : small
+Index0 : 0 1 
+Tape0  : 1 _ 
+Head0  :   ^ 
+Index1 : 0 1 2 
+Tape1  : 1 1 1 
+Head1  :   ^   
+Index2 : 0 1 2 3 4 5 6 
+Tape2  : 1 1 1 1 1 1 1 
+Head2  :   ^           
+---------------------------------------------
+Step   : 39
+State  : small
+Index0 : 0 1 2 
+Tape0  : 1 1 _ 
+Head0  :     ^ 
+Index1 : 0 1 2 
+Tape1  : 1 1 1 
+Head1  :     ^ 
+Index2 : 0 1 2 3 4 5 6 
+Tape2  : 1 1 1 1 1 1 1 
+Head2  :     ^         
+---------------------------------------------
+Step   : 40
+State  : small
+Index0 : 0 1 2 3 
+Tape0  : 1 1 1 _ 
+Head0  :       ^ 
+Index1 : 0 1 2 3 
+Tape1  : 1 1 1 _ 
+Head1  :       ^ 
+Index2 : 0 1 2 3 4 5 6 
+Tape2  : 1 1 1 1 1 1 1 
+Head2  :       ^       
+---------------------------------------------
+Step   : 41
+State  : sback0
+Index0 : 0 1 2 
+Tape0  : 1 1 1 
+Head0  :     ^ 
+Index1 : 0 1 2 
+Tape1  : 1 1 1 
+Head1  :     ^ 
+Index2 : 0 1 2 3 4 5 6 
+Tape2  : 1 1 1 1 1 1 1 
+Head2  :     ^         
+---------------------------------------------
+Step   : 42
+State  : sback0
+Index0 : 0 1 2 
+Tape0  : 1 1 1 
+Head0  :   ^   
+Index1 : 0 1 2 
+Tape1  : 1 1 1 
+Head1  :     ^ 
+Index2 : 0 1 2 3 4 5 6 
+Tape2  : 1 1 1 1 1 1 1 
+Head2  :     ^         
+---------------------------------------------
+Step   : 43
+State  : sback0
+Index0 : 0 1 2 
+Tape0  : 1 1 1 
+Head0  : ^     
+Index1 : 0 1 2 
+Tape1  : 1 1 1 
+Head1  :     ^ 
+Index2 : 0 1 2 3 4 5 6 
+Tape2  : 1 1 1 1 1 1 1 
+Head2  :     ^         
+---------------------------------------------
+Step   : 44
+State  : sback0
+Index0 : 1 0 1 2 
+Tape0  : _ 1 1 1 
+Head0  : ^       
+Index1 : 0 1 2 
+Tape1  : 1 1 1 
+Head1  :     ^ 
+Index2 : 0 1 2 3 4 5 6 
+Tape2  : 1 1 1 1 1 1 1 
+Head2  :     ^         
+---------------------------------------------
+Step   : 45
+State  : sback1
+Index0 : 0 1 2 
+Tape0  : 1 1 1 
+Head0  : ^     
+Index1 : 0 1 2 
+Tape1  : 1 1 1 
+Head1  :     ^ 
+Index2 : 0 1 2 3 4 5 6 
+Tape2  : 1 1 1 1 1 1 1 
+Head2  :     ^         
+---------------------------------------------
+Step   : 46
+State  : sback1
+Index0 : 0 1 2 
+Tape0  : 1 1 1 
+Head0  : ^     
+Index1 : 0 1 2 
+Tape1  : 1 1 1 
+Head1  :   ^   
+Index2 : 0 1 2 3 4 5 6 
+Tape2  : 1 1 1 1 1 1 1 
+Head2  :     ^         
+---------------------------------------------
+Step   : 47
+State  : sback1
+Index0 : 0 1 2 
+Tape0  : 1 1 1 
+Head0  : ^     
+Index1 : 0 1 2 
+Tape1  : 1 1 1 
+Head1  : ^     
+Index2 : 0 1 2 3 4 5 6 
+Tape2  : 1 1 1 1 1 1 1 
+Head2  :     ^         
+---------------------------------------------
+Step   : 48
+State  : sback1
+Index0 : 0 1 2 
+Tape0  : 1 1 1 
+Head0  : ^     
+Index1 : 1 0 1 2 
+Tape1  : _ 1 1 1 
+Head1  : ^       
+Index2 : 0 1 2 3 4 5 6 
+Tape2  : 1 1 1 1 1 1 1 
+Head2  :     ^         
+---------------------------------------------
+Step   : 49
+State  : sback2
+Index0 : 0 1 2 
+Tape0  : 1 1 1 
+Head0  : ^     
+Index1 : 0 1 2 
+Tape1  : 1 1 1 
+Head1  : ^     
+Index2 : 0 1 2 3 4 5 6 
+Tape2  : 1 1 1 1 1 1 1 
+Head2  :     ^         
+---------------------------------------------
+Step   : 50
+State  : sback2
+Index0 : 0 1 2 
+Tape0  : 1 1 1 
+Head0  : ^     
+Index1 : 0 1 2 
+Tape1  : 1 1 1 
+Head1  : ^     
+Index2 : 0 1 2 3 4 5 6 
+Tape2  : 1 1 1 1 1 1 1 
+Head2  :   ^           
+---------------------------------------------
+Step   : 51
+State  : sback2
+Index0 : 0 1 2 
+Tape0  : 1 1 1 
+Head0  : ^     
+Index1 : 0 1 2 
+Tape1  : 1 1 1 
+Head1  : ^     
+Index2 : 0 1 2 3 4 5 6 
+Tape2  : 1 1 1 1 1 1 1 
+Head2  : ^             
+---------------------------------------------
+Step   : 52
+State  : sback2
+Index0 : 0 1 2 
+Tape0  : 1 1 1 
+Head0  : ^     
+Index1 : 0 1 2 
+Tape1  : 1 1 1 
+Head1  : ^     
+Index2 : 1 0 1 2 3 4 5 6 
+Tape2  : _ 1 1 1 1 1 1 1 
+Head2  : ^               
+---------------------------------------------
+Step   : 53
+State  : test1
+Index0 : 0 1 2 
+Tape0  : 1 1 1 
+Head0  : ^     
+Index1 : 0 1 2 
+Tape1  : 1 1 1 
+Head1  : ^     
+Index2 : 0 1 2 3 4 5 6 
+Tape2  : 1 1 1 1 1 1 1 
+Head2  : ^             
+---------------------------------------------
+Step   : 54
+State  : test1
+Index0 : 0 1 2 
+Tape0  : 1 1 1 
+Head0  :   ^   
+Index1 : 0 1 2 
+Tape1  : 1 1 1 
+Head1  :   ^   
+Index2 : 0 1 2 3 4 5 6 
+Tape2  : 1 1 1 1 1 1 1 
+Head2  : ^             
+---------------------------------------------
+Step   : 55
+State  : test1
+Index0 : 0 1 2 
+Tape0  : 1 1 1 
+Head0  :     ^ 
+Index1 : 0 1 2 
+Tape1  : 1 1 1 
+Head1  :     ^ 
+Index2 : 0 1 2 3 4 5 6 
+Tape2  : 1 1 1 1 1 1 1 
+Head2  : ^             
+---------------------------------------------
+Step   : 56
+State  : test1
+Index0 : 0 1 2 3 
+Tape0  : 1 1 1 _ 
+Head0  :       ^ 
+Index1 : 0 1 2 3 
+Tape1  : 1 1 1 _ 
+Head1  :       ^ 
+Index2 : 0 1 2 3 4 5 6 
+Tape2  : 1 1 1 1 1 1 1 
+Head2  : ^             
+---------------------------------------------
+Step   : 57
+State  : testb2
+Index0 : 0 1 2 
+Tape0  : 1 1 1 
+Head0  :     ^ 
+Index1 : 0 1 2 
+Tape1  : 1 1 1 
+Head1  :     ^ 
+Index2 : 0 1 2 3 4 5 6 
+Tape2  : 1 1 1 1 1 1 1 
+Head2  : ^             
+---------------------------------------------
+Step   : 58
+State  : testb2
+Index0 : 0 1 2 
+Tape0  : 1 1 1 
+Head0  :   ^   
+Index1 : 0 1 2 
+Tape1  : 1 1 1 
+Head1  :     ^ 
+Index2 : 0 1 2 3 4 5 6 
+Tape2  : 1 1 1 1 1 1 1 
+Head2  : ^             
+---------------------------------------------
+Step   : 59
+State  : testb2
+Index0 : 0 1 2 
+Tape0  : 1 1 1 
+Head0  : ^     
+Index1 : 0 1 2 
+Tape1  : 1 1 1 
+Head1  :     ^ 
+Index2 : 0 1 2 3 4 5 6 
+Tape2  : 1 1 1 1 1 1 1 
+Head2  : ^             
+---------------------------------------------
+Step   : 60
+State  : testb2
+Index0 : 1 0 1 2 
+Tape0  : _ 1 1 1 
+Head0  : ^       
+Index1 : 0 1 2 
+Tape1  : 1 1 1 
+Head1  :     ^ 
+Index2 : 0 1 2 3 4 5 6 
+Tape2  : 1 1 1 1 1 1 1 
+Head2  : ^             
+---------------------------------------------
+Step   : 61
+State  : test2
+Index0 : 0 1 2 
+Tape0  : 1 1 1 
+Head0  : ^     
+Index1 : 0 1 2 
+Tape1  : 1 1 1 
+Head1  :     ^ 
+Index2 : 0 1 2 3 4 5 6 
+Tape2  : 1 1 1 1 1 1 1 
+Head2  : ^             
+---------------------------------------------
+Step   : 62
+State  : test2
+Index0 : 0 1 2 
+Tape0  : 1 1 1 
+Head0  :   ^   
+Index1 : 0 1 2 
+Tape1  : 1 1 1 
+Head1  :     ^ 
+Index2 : 0 1 2 3 4 5 6 
+Tape2  : 1 1 1 1 1 1 1 
+Head2  :   ^           
+---------------------------------------------
+Step   : 63
+State  : test2
+Index0 : 0 1 2 
+Tape0  : 1 1 1 
+Head0  :     ^ 
+Index1 : 0 1 2 
+Tape1  : 1 1 1 
+Head1  :     ^ 
+Index2 : 0 1 2 3 4 5 6 
+Tape2  : 1 1 1 1 1 1 1 
+Head2  :     ^         
+---------------------------------------------
+Step   : 64
+State  : test2
+Index0 : 0 1 2 3 
+Tape0  : 1 1 1 _ 
+Head0  :       ^ 
+Index1 : 0 1 2 
+Tape1  : 1 1 1 
+Head1  :     ^ 
+Index2 : 0 1 2 3 4 5 6 
+Tape2  : 1 1 1 1 1 1 1 
+Head2  :       ^       
+---------------------------------------------
+Step   : 65
+State  : testb2
+Index0 : 0 1 2 
+Tape0  : 1 1 1 
+Head0  :     ^ 
+Index1 : 0 1 2 
+Tape1  : 1 1 1 
+Head1  :     ^ 
+Index2 : 0 1 2 3 4 5 6 
+Tape2  : 1 1 1 1 1 1 1 
+Head2  :       ^       
+---------------------------------------------
+Step   : 66
+State  : testb2
+Index0 : 0 1 2 
+Tape0  : 1 1 1 
+Head0  :   ^   
+Index1 : 0 1 2 
+Tape1  : 1 1 1 
+Head1  :     ^ 
+Index2 : 0 1 2 3 4 5 6 
+Tape2  : 1 1 1 1 1 1 1 
+Head2  :       ^       
+---------------------------------------------
+Step   : 67
+State  : testb2
+Index0 : 0 1 2 
+Tape0  : 1 1 1 
+Head0  : ^     
+Index1 : 0 1 2 
+Tape1  : 1 1 1 
+Head1  :     ^ 
+Index2 : 0 1 2 3 4 5 6 
+Tape2  : 1 1 1 1 1 1 1 
+Head2  :       ^       
+---------------------------------------------
+Step   : 68
+State  : testb2
+Index0 : 1 0 1 2 
+Tape0  : _ 1 1 1 
+Head0  : ^       
+Index1 : 0 1 2 
+Tape1  : 1 1 1 
+Head1  :     ^ 
+Index2 : 0 1 2 3 4 5 6 
+Tape2  : 1 1 1 1 1 1 1 
+Head2  :       ^       
+---------------------------------------------
+Step   : 69
+State  : test2
+Index0 : 0 1 2 
+Tape0  : 1 1 1 
+Head0  : ^     
+Index1 : 0 1 2 
+Tape1  : 1 1 1 
+Head1  :     ^ 
+Index2 : 0 1 2 3 4 5 6 
+Tape2  : 1 1 1 1 1 1 1 
+Head2  :       ^       
+---------------------------------------------
+Step   : 70
+State  : test2
+Index0 : 0 1 2 
+Tape0  : 1 1 1 
+Head0  :   ^   
+Index1 : 0 1 2 
+Tape1  : 1 1 1 
+Head1  :     ^ 
+Index2 : 0 1 2 3 4 5 6 
+Tape2  : 1 1 1 1 1 1 1 
+Head2  :         ^     
+---------------------------------------------
+Step   : 71
+State  : test2
+Index0 : 0 1 2 
+Tape0  : 1 1 1 
+Head0  :     ^ 
+Index1 : 0 1 2 
+Tape1  : 1 1 1 
+Head1  :     ^ 
+Index2 : 0 1 2 3 4 5 6 
+Tape2  : 1 1 1 1 1 1 1 
+Head2  :           ^   
+---------------------------------------------
+Step   : 72
+State  : test2
+Index0 : 0 1 2 3 
+Tape0  : 1 1 1 _ 
+Head0  :       ^ 
+Index1 : 0 1 2 
+Tape1  : 1 1 1 
+Head1  :     ^ 
+Index2 : 0 1 2 3 4 5 6 
+Tape2  : 1 1 1 1 1 1 1 
+Head2  :             ^ 
+---------------------------------------------
+Step   : 73
+State  : testb2
+Index0 : 0 1 2 
+Tape0  : 1 1 1 
+Head0  :     ^ 
+Index1 : 0 1 2 
+Tape1  : 1 1 1 
+Head1  :     ^ 
+Index2 : 0 1 2 3 4 5 6 
+Tape2  : 1 1 1 1 1 1 1 
+Head2  :             ^ 
+---------------------------------------------
+Step   : 74
+State  : testb2
+Index0 : 0 1 2 
+Tape0  : 1 1 1 
+Head0  :   ^   
+Index1 : 0 1 2 
+Tape1  : 1 1 1 
+Head1  :     ^ 
+Index2 : 0 1 2 3 4 5 6 
+Tape2  : 1 1 1 1 1 1 1 
+Head2  :             ^ 
+---------------------------------------------
+Step   : 75
+State  : testb2
+Index0 : 0 1 2 
+Tape0  : 1 1 1 
+Head0  : ^     
+Index1 : 0 1 2 
+Tape1  : 1 1 1 
+Head1  :     ^ 
+Index2 : 0 1 2 3 4 5 6 
+Tape2  : 1 1 1 1 1 1 1 
+Head2  :             ^ 
+---------------------------------------------
+Step   : 76
+State  : testb2
+Index0 : 1 0 1 2 
+Tape0  : _ 1 1 1 
+Head0  : ^       
+Index1 : 0 1 2 
+Tape1  : 1 1 1 
+Head1  :     ^ 
+Index2 : 0 1 2 3 4 5 6 
+Tape2  : 1 1 1 1 1 1 1 
+Head2  :             ^ 
+---------------------------------------------
+Step   : 77
+State  : test2
+Index0 : 0 1 2 
+Tape0  : 1 1 1 
+Head0  : ^     
+Index1 : 0 1 2 
+Tape1  : 1 1 1 
+Head1  :     ^ 
+Index2 : 0 1 2 3 4 5 6 
+Tape2  : 1 1 1 1 1 1 1 
+Head2  :             ^ 
+---------------------------------------------
+Step   : 78
+State  : test2
+Index0 : 0 1 2 
+Tape0  : 1 1 1 
+Head0  :   ^   
+Index1 : 0 1 2 
+Tape1  : 1 1 1 
+Head1  :     ^ 
+Index2 : 0 1 2 3 4 5 6 7 
+Tape2  : 1 1 1 1 1 1 1 _ 
+Head2  :               ^ 
+---------------------------------------------
+Step   : 79
+State  : fail
+Index0 : 0 1 2 
+Tape0  : 1 1 1 
+Head0  :   ^   
+Index1 : 0 1 2 
+Tape1  : 1 1 1 
+Head1  :     ^ 
+Index2 : 0 1 2 3 4 5 6 
+Tape2  : 1 1 1 1 1 1 1 
+Head2  :             ^ 
+---------------------------------------------
+Step   : 80
+State  : fail
+Index0 : 0 1 2 
+Tape0  : 1 1 1 
+Head0  :     ^ 
+Index1 : 0 1 2 
+Tape1  : 1 1 1 
+Head1  :     ^ 
+Index2 : 0 1 2 3 4 5 6 
+Tape2  : 1 1 1 1 1 1 1 
+Head2  :             ^ 
+---------------------------------------------
+Step   : 81
+State  : fail
+Index0 : 0 1 2 3 
+Tape0  : 1 1 1 _ 
+Head0  :       ^ 
+Index1 : 0 1 2 
+Tape1  : 1 1 1 
+Head1  :     ^ 
+Index2 : 0 1 2 3 4 5 6 
+Tape2  : 1 1 1 1 1 1 1 
+Head2  :             ^ 
+---------------------------------------------
+Step   : 82
+State  : minus
+Index0 : 0 1 2 
+Tape0  : 1 1 1 
+Head0  :     ^ 
+Index1 : 0 1 2 
+Tape1  : 1 1 1 
+Head1  :     ^ 
+Index2 : 0 1 2 3 4 5 6 
+Tape2  : 1 1 1 1 1 1 1 
+Head2  :             ^ 
+---------------------------------------------
+Step   : 83
+State  : sback0
+Index0 : 0 1 
+Tape0  : 1 1 
+Head0  :   ^ 
+Index1 : 0 1 2 
+Tape1  : 1 1 1 
+Head1  :     ^ 
+Index2 : 0 1 2 3 4 5 6 
+Tape2  : 1 1 1 1 1 1 1 
+Head2  :             ^ 
+---------------------------------------------
+Step   : 84
+State  : sback0
+Index0 : 0 1 
+Tape0  : 1 1 
+Head0  : ^   
+Index1 : 0 1 2 
+Tape1  : 1 1 1 
+Head1  :     ^ 
+Index2 : 0 1 2 3 4 5 6 
+Tape2  : 1 1 1 1 1 1 1 
+Head2  :             ^ 
+---------------------------------------------
+Step   : 85
+State  : sback0
+Index0 : 1 0 1 
+Tape0  : _ 1 1 
+Head0  : ^     
+Index1 : 0 1 2 
+Tape1  : 1 1 1 
+Head1  :     ^ 
+Index2 : 0 1 2 3 4 5 6 
+Tape2  : 1 1 1 1 1 1 1 
+Head2  :             ^ 
+---------------------------------------------
+Step   : 86
+State  : sback1
+Index0 : 0 1 
+Tape0  : 1 1 
+Head0  : ^   
+Index1 : 0 1 2 
+Tape1  : 1 1 1 
+Head1  :     ^ 
+Index2 : 0 1 2 3 4 5 6 
+Tape2  : 1 1 1 1 1 1 1 
+Head2  :             ^ 
+---------------------------------------------
+Step   : 87
+State  : sback1
+Index0 : 0 1 
+Tape0  : 1 1 
+Head0  : ^   
+Index1 : 0 1 2 
+Tape1  : 1 1 1 
+Head1  :   ^   
+Index2 : 0 1 2 3 4 5 6 
+Tape2  : 1 1 1 1 1 1 1 
+Head2  :             ^ 
+---------------------------------------------
+Step   : 88
+State  : sback1
+Index0 : 0 1 
+Tape0  : 1 1 
+Head0  : ^   
+Index1 : 0 1 2 
+Tape1  : 1 1 1 
+Head1  : ^     
+Index2 : 0 1 2 3 4 5 6 
+Tape2  : 1 1 1 1 1 1 1 
+Head2  :             ^ 
+---------------------------------------------
+Step   : 89
+State  : sback1
+Index0 : 0 1 
+Tape0  : 1 1 
+Head0  : ^   
+Index1 : 1 0 1 2 
+Tape1  : _ 1 1 1 
+Head1  : ^       
+Index2 : 0 1 2 3 4 5 6 
+Tape2  : 1 1 1 1 1 1 1 
+Head2  :             ^ 
+---------------------------------------------
+Step   : 90
+State  : sback2
+Index0 : 0 1 
+Tape0  : 1 1 
+Head0  : ^   
+Index1 : 0 1 2 
+Tape1  : 1 1 1 
+Head1  : ^     
+Index2 : 0 1 2 3 4 5 6 
+Tape2  : 1 1 1 1 1 1 1 
+Head2  :             ^ 
+---------------------------------------------
+Step   : 91
+State  : sback2
+Index0 : 0 1 
+Tape0  : 1 1 
+Head0  : ^   
+Index1 : 0 1 2 
+Tape1  : 1 1 1 
+Head1  : ^     
+Index2 : 0 1 2 3 4 5 6 
+Tape2  : 1 1 1 1 1 1 1 
+Head2  :           ^   
+---------------------------------------------
+Step   : 92
+State  : sback2
+Index0 : 0 1 
+Tape0  : 1 1 
+Head0  : ^   
+Index1 : 0 1 2 
+Tape1  : 1 1 1 
+Head1  : ^     
+Index2 : 0 1 2 3 4 5 6 
+Tape2  : 1 1 1 1 1 1 1 
+Head2  :         ^     
+---------------------------------------------
+Step   : 93
+State  : sback2
+Index0 : 0 1 
+Tape0  : 1 1 
+Head0  : ^   
+Index1 : 0 1 2 
+Tape1  : 1 1 1 
+Head1  : ^     
+Index2 : 0 1 2 3 4 5 6 
+Tape2  : 1 1 1 1 1 1 1 
+Head2  :       ^       
+---------------------------------------------
+Step   : 94
+State  : sback2
+Index0 : 0 1 
+Tape0  : 1 1 
+Head0  : ^   
+Index1 : 0 1 2 
+Tape1  : 1 1 1 
+Head1  : ^     
+Index2 : 0 1 2 3 4 5 6 
+Tape2  : 1 1 1 1 1 1 1 
+Head2  :     ^         
+---------------------------------------------
+Step   : 95
+State  : sback2
+Index0 : 0 1 
+Tape0  : 1 1 
+Head0  : ^   
+Index1 : 0 1 2 
+Tape1  : 1 1 1 
+Head1  : ^     
+Index2 : 0 1 2 3 4 5 6 
+Tape2  : 1 1 1 1 1 1 1 
+Head2  :   ^           
+---------------------------------------------
+Step   : 96
+State  : sback2
+Index0 : 0 1 
+Tape0  : 1 1 
+Head0  : ^   
+Index1 : 0 1 2 
+Tape1  : 1 1 1 
+Head1  : ^     
+Index2 : 0 1 2 3 4 5 6 
+Tape2  : 1 1 1 1 1 1 1 
+Head2  : ^             
+---------------------------------------------
+Step   : 97
+State  : sback2
+Index0 : 0 1 
+Tape0  : 1 1 
+Head0  : ^   
+Index1 : 0 1 2 
+Tape1  : 1 1 1 
+Head1  : ^     
+Index2 : 1 0 1 2 3 4 5 6 
+Tape2  : _ 1 1 1 1 1 1 1 
+Head2  : ^               
+---------------------------------------------
+Step   : 98
+State  : test1
+Index0 : 0 1 
+Tape0  : 1 1 
+Head0  : ^   
+Index1 : 0 1 2 
+Tape1  : 1 1 1 
+Head1  : ^     
+Index2 : 0 1 2 3 4 5 6 
+Tape2  : 1 1 1 1 1 1 1 
+Head2  : ^             
+---------------------------------------------
+Step   : 99
+State  : test1
+Index0 : 0 1 
+Tape0  : 1 1 
+Head0  :   ^ 
+Index1 : 0 1 2 
+Tape1  : 1 1 1 
+Head1  :   ^   
+Index2 : 0 1 2 3 4 5 6 
+Tape2  : 1 1 1 1 1 1 1 
+Head2  : ^             
+---------------------------------------------
+Step   : 100
+State  : test1
+Index0 : 0 1 2 
+Tape0  : 1 1 _ 
+Head0  :     ^ 
+Index1 : 0 1 2 
+Tape1  : 1 1 1 
+Head1  :     ^ 
+Index2 : 0 1 2 3 4 5 6 
+Tape2  : 1 1 1 1 1 1 1 
+Head2  : ^             
+---------------------------------------------
+Step   : 101
+State  : testb1
+Index0 : 0 1 
+Tape0  : 1 1 
+Head0  :   ^ 
+Index1 : 0 1 2 
+Tape1  : 1 1 1 
+Head1  :     ^ 
+Index2 : 0 1 2 3 4 5 6 
+Tape2  : 1 1 1 1 1 1 1 
+Head2  : ^             
+---------------------------------------------
+Step   : 102
+State  : testb1
+Index0 : 0 1 
+Tape0  : 1 1 
+Head0  : ^   
+Index1 : 0 1 2 
+Tape1  : 1 1 1 
+Head1  :     ^ 
+Index2 : 0 1 2 3 4 5 6 
+Tape2  : 1 1 1 1 1 1 1 
+Head2  : ^             
+---------------------------------------------
+Step   : 103
+State  : testb1
+Index0 : 1 0 1 
+Tape0  : _ 1 1 
+Head0  : ^     
+Index1 : 0 1 2 
+Tape1  : 1 1 1 
+Head1  :     ^ 
+Index2 : 0 1 2 3 4 5 6 
+Tape2  : 1 1 1 1 1 1 1 
+Head2  : ^             
+---------------------------------------------
+Step   : 104
+State  : test1
+Index0 : 0 1 
+Tape0  : 1 1 
+Head0  : ^   
+Index1 : 0 1 2 
+Tape1  : 1 1 1 
+Head1  :     ^ 
+Index2 : 0 1 2 3 4 5 6 
+Tape2  : 1 1 1 1 1 1 1 
+Head2  : ^             
+---------------------------------------------
+Step   : 105
+State  : test1
+Index0 : 0 1 
+Tape0  : 1 1 
+Head0  :   ^ 
+Index1 : 0 1 2 3 
+Tape1  : 1 1 1 _ 
+Head1  :       ^ 
+Index2 : 0 1 2 3 4 5 6 
+Tape2  : 1 1 1 1 1 1 1 
+Head2  : ^             
+---------------------------------------------
+Step   : 106
+State  : fail
+Index0 : 0 1 
+Tape0  : 1 1 
+Head0  :   ^ 
+Index1 : 0 1 2 
+Tape1  : 1 1 1 
+Head1  :     ^ 
+Index2 : 0 1 2 3 4 5 6 
+Tape2  : 1 1 1 1 1 1 1 
+Head2  : ^             
+---------------------------------------------
+Step   : 107
+State  : fail
+Index0 : 0 1 2 
+Tape0  : 1 1 _ 
+Head0  :     ^ 
+Index1 : 0 1 2 
+Tape1  : 1 1 1 
+Head1  :     ^ 
+Index2 : 0 1 2 3 4 5 6 
+Tape2  : 1 1 1 1 1 1 1 
+Head2  : ^             
+---------------------------------------------
+Step   : 108
+State  : minus
+Index0 : 0 1 
+Tape0  : 1 1 
+Head0  :   ^ 
+Index1 : 0 1 2 
+Tape1  : 1 1 1 
+Head1  :     ^ 
+Index2 : 0 1 2 3 4 5 6 
+Tape2  : 1 1 1 1 1 1 1 
+Head2  : ^             
+---------------------------------------------
+Step   : 109
+State  : sback0
+Index0 : 0 
+Tape0  : 1 
+Head0  : ^ 
+Index1 : 0 1 2 
+Tape1  : 1 1 1 
+Head1  :     ^ 
+Index2 : 0 1 2 3 4 5 6 
+Tape2  : 1 1 1 1 1 1 1 
+Head2  : ^             
+---------------------------------------------
+Step   : 110
+State  : sback0
+Index0 : 1 0 
+Tape0  : _ 1 
+Head0  : ^   
+Index1 : 0 1 2 
+Tape1  : 1 1 1 
+Head1  :     ^ 
+Index2 : 0 1 2 3 4 5 6 
+Tape2  : 1 1 1 1 1 1 1 
+Head2  : ^             
+---------------------------------------------
+Step   : 111
+State  : sback1
+Index0 : 0 
+Tape0  : 1 
+Head0  : ^ 
+Index1 : 0 1 2 
+Tape1  : 1 1 1 
+Head1  :     ^ 
+Index2 : 0 1 2 3 4 5 6 
+Tape2  : 1 1 1 1 1 1 1 
+Head2  : ^             
+---------------------------------------------
+Step   : 112
+State  : sback1
+Index0 : 0 
+Tape0  : 1 
+Head0  : ^ 
+Index1 : 0 1 2 
+Tape1  : 1 1 1 
+Head1  :   ^   
+Index2 : 0 1 2 3 4 5 6 
+Tape2  : 1 1 1 1 1 1 1 
+Head2  : ^             
+---------------------------------------------
+Step   : 113
+State  : sback1
+Index0 : 0 
+Tape0  : 1 
+Head0  : ^ 
+Index1 : 0 1 2 
+Tape1  : 1 1 1 
+Head1  : ^     
+Index2 : 0 1 2 3 4 5 6 
+Tape2  : 1 1 1 1 1 1 1 
+Head2  : ^             
+---------------------------------------------
+Step   : 114
+State  : sback1
+Index0 : 0 
+Tape0  : 1 
+Head0  : ^ 
+Index1 : 1 0 1 2 
+Tape1  : _ 1 1 1 
+Head1  : ^       
+Index2 : 0 1 2 3 4 5 6 
+Tape2  : 1 1 1 1 1 1 1 
+Head2  : ^             
+---------------------------------------------
+Step   : 115
+State  : sback2
+Index0 : 0 
+Tape0  : 1 
+Head0  : ^ 
+Index1 : 0 1 2 
+Tape1  : 1 1 1 
+Head1  : ^     
+Index2 : 0 1 2 3 4 5 6 
+Tape2  : 1 1 1 1 1 1 1 
+Head2  : ^             
+---------------------------------------------
+Step   : 116
+State  : sback2
+Index0 : 0 
+Tape0  : 1 
+Head0  : ^ 
+Index1 : 0 1 2 
+Tape1  : 1 1 1 
+Head1  : ^     
+Index2 : 1 0 1 2 3 4 5 6 
+Tape2  : _ 1 1 1 1 1 1 1 
+Head2  : ^               
+---------------------------------------------
+Step   : 117
+State  : test1
+Index0 : 0 
+Tape0  : 1 
+Head0  : ^ 
+Index1 : 0 1 2 
+Tape1  : 1 1 1 
+Head1  : ^     
+Index2 : 0 1 2 3 4 5 6 
+Tape2  : 1 1 1 1 1 1 1 
+Head2  : ^             
+---------------------------------------------
+Step   : 118
+State  : test1
+Index0 : 0 1 
+Tape0  : 1 _ 
+Head0  :   ^ 
+Index1 : 0 1 2 
+Tape1  : 1 1 1 
+Head1  :   ^   
+Index2 : 0 1 2 3 4 5 6 
+Tape2  : 1 1 1 1 1 1 1 
+Head2  : ^             
+---------------------------------------------
+Step   : 119
+State  : testb1
+Index0 : 0 
+Tape0  : 1 
+Head0  : ^ 
+Index1 : 0 1 2 
+Tape1  : 1 1 1 
+Head1  :   ^   
+Index2 : 0 1 2 3 4 5 6 
+Tape2  : 1 1 1 1 1 1 1 
+Head2  : ^             
+---------------------------------------------
+Step   : 120
+State  : testb1
+Index0 : 1 0 
+Tape0  : _ 1 
+Head0  : ^   
+Index1 : 0 1 2 
+Tape1  : 1 1 1 
+Head1  :   ^   
+Index2 : 0 1 2 3 4 5 6 
+Tape2  : 1 1 1 1 1 1 1 
+Head2  : ^             
+---------------------------------------------
+Step   : 121
+State  : test1
+Index0 : 0 
+Tape0  : 1 
+Head0  : ^ 
+Index1 : 0 1 2 
+Tape1  : 1 1 1 
+Head1  :   ^   
+Index2 : 0 1 2 3 4 5 6 
+Tape2  : 1 1 1 1 1 1 1 
+Head2  : ^             
+---------------------------------------------
+Step   : 122
+State  : test1
+Index0 : 0 1 
+Tape0  : 1 _ 
+Head0  :   ^ 
+Index1 : 0 1 2 
+Tape1  : 1 1 1 
+Head1  :     ^ 
+Index2 : 0 1 2 3 4 5 6 
+Tape2  : 1 1 1 1 1 1 1 
+Head2  : ^             
+---------------------------------------------
+Step   : 123
+State  : testb1
+Index0 : 0 
+Tape0  : 1 
+Head0  : ^ 
+Index1 : 0 1 2 
+Tape1  : 1 1 1 
+Head1  :     ^ 
+Index2 : 0 1 2 3 4 5 6 
+Tape2  : 1 1 1 1 1 1 1 
+Head2  : ^             
+---------------------------------------------
+Step   : 124
+State  : testb1
+Index0 : 1 0 
+Tape0  : _ 1 
+Head0  : ^   
+Index1 : 0 1 2 
+Tape1  : 1 1 1 
+Head1  :     ^ 
+Index2 : 0 1 2 3 4 5 6 
+Tape2  : 1 1 1 1 1 1 1 
+Head2  : ^             
+---------------------------------------------
+Step   : 125
+State  : test1
+Index0 : 0 
+Tape0  : 1 
+Head0  : ^ 
+Index1 : 0 1 2 
+Tape1  : 1 1 1 
+Head1  :     ^ 
+Index2 : 0 1 2 3 4 5 6 
+Tape2  : 1 1 1 1 1 1 1 
+Head2  : ^             
+---------------------------------------------
+Step   : 126
+State  : test1
+Index0 : 0 1 
+Tape0  : 1 _ 
+Head0  :   ^ 
+Index1 : 0 1 2 3 
+Tape1  : 1 1 1 _ 
+Head1  :       ^ 
+Index2 : 0 1 2 3 4 5 6 
+Tape2  : 1 1 1 1 1 1 1 
+Head2  : ^             
+---------------------------------------------
+Step   : 127
+State  : testb2
+Index0 : 0 
+Tape0  : 1 
+Head0  : ^ 
+Index1 : 0 1 2 
+Tape1  : 1 1 1 
+Head1  :     ^ 
+Index2 : 0 1 2 3 4 5 6 
+Tape2  : 1 1 1 1 1 1 1 
+Head2  : ^             
+---------------------------------------------
+Step   : 128
+State  : testb2
+Index0 : 1 0 
+Tape0  : _ 1 
+Head0  : ^   
+Index1 : 0 1 2 
+Tape1  : 1 1 1 
+Head1  :     ^ 
+Index2 : 0 1 2 3 4 5 6 
+Tape2  : 1 1 1 1 1 1 1 
+Head2  : ^             
+---------------------------------------------
+Step   : 129
+State  : test2
+Index0 : 0 
+Tape0  : 1 
+Head0  : ^ 
+Index1 : 0 1 2 
+Tape1  : 1 1 1 
+Head1  :     ^ 
+Index2 : 0 1 2 3 4 5 6 
+Tape2  : 1 1 1 1 1 1 1 
+Head2  : ^             
+---------------------------------------------
+Step   : 130
+State  : test2
+Index0 : 0 1 
+Tape0  : 1 _ 
+Head0  :   ^ 
+Index1 : 0 1 2 
+Tape1  : 1 1 1 
+Head1  :     ^ 
+Index2 : 0 1 2 3 4 5 6 
+Tape2  : 1 1 1 1 1 1 1 
+Head2  :   ^           
+---------------------------------------------
+Step   : 131
+State  : testb2
+Index0 : 0 
+Tape0  : 1 
+Head0  : ^ 
+Index1 : 0 1 2 
+Tape1  : 1 1 1 
+Head1  :     ^ 
+Index2 : 0 1 2 3 4 5 6 
+Tape2  : 1 1 1 1 1 1 1 
+Head2  :   ^           
+---------------------------------------------
+Step   : 132
+State  : testb2
+Index0 : 1 0 
+Tape0  : _ 1 
+Head0  : ^   
+Index1 : 0 1 2 
+Tape1  : 1 1 1 
+Head1  :     ^ 
+Index2 : 0 1 2 3 4 5 6 
+Tape2  : 1 1 1 1 1 1 1 
+Head2  :   ^           
+---------------------------------------------
+Step   : 133
+State  : test2
+Index0 : 0 
+Tape0  : 1 
+Head0  : ^ 
+Index1 : 0 1 2 
+Tape1  : 1 1 1 
+Head1  :     ^ 
+Index2 : 0 1 2 3 4 5 6 
+Tape2  : 1 1 1 1 1 1 1 
+Head2  :   ^           
+---------------------------------------------
+Step   : 134
+State  : test2
+Index0 : 0 1 
+Tape0  : 1 _ 
+Head0  :   ^ 
+Index1 : 0 1 2 
+Tape1  : 1 1 1 
+Head1  :     ^ 
+Index2 : 0 1 2 3 4 5 6 
+Tape2  : 1 1 1 1 1 1 1 
+Head2  :     ^         
+---------------------------------------------
+Step   : 135
+State  : testb2
+Index0 : 0 
+Tape0  : 1 
+Head0  : ^ 
+Index1 : 0 1 2 
+Tape1  : 1 1 1 
+Head1  :     ^ 
+Index2 : 0 1 2 3 4 5 6 
+Tape2  : 1 1 1 1 1 1 1 
+Head2  :     ^         
+---------------------------------------------
+Step   : 136
+State  : testb2
+Index0 : 1 0 
+Tape0  : _ 1 
+Head0  : ^   
+Index1 : 0 1 2 
+Tape1  : 1 1 1 
+Head1  :     ^ 
+Index2 : 0 1 2 3 4 5 6 
+Tape2  : 1 1 1 1 1 1 1 
+Head2  :     ^         
+---------------------------------------------
+Step   : 137
+State  : test2
+Index0 : 0 
+Tape0  : 1 
+Head0  : ^ 
+Index1 : 0 1 2 
+Tape1  : 1 1 1 
+Head1  :     ^ 
+Index2 : 0 1 2 3 4 5 6 
+Tape2  : 1 1 1 1 1 1 1 
+Head2  :     ^         
+---------------------------------------------
+Step   : 138
+State  : test2
+Index0 : 0 1 
+Tape0  : 1 _ 
+Head0  :   ^ 
+Index1 : 0 1 2 
+Tape1  : 1 1 1 
+Head1  :     ^ 
+Index2 : 0 1 2 3 4 5 6 
+Tape2  : 1 1 1 1 1 1 1 
+Head2  :       ^       
+---------------------------------------------
+Step   : 139
+State  : testb2
+Index0 : 0 
+Tape0  : 1 
+Head0  : ^ 
+Index1 : 0 1 2 
+Tape1  : 1 1 1 
+Head1  :     ^ 
+Index2 : 0 1 2 3 4 5 6 
+Tape2  : 1 1 1 1 1 1 1 
+Head2  :       ^       
+---------------------------------------------
+Step   : 140
+State  : testb2
+Index0 : 1 0 
+Tape0  : _ 1 
+Head0  : ^   
+Index1 : 0 1 2 
+Tape1  : 1 1 1 
+Head1  :     ^ 
+Index2 : 0 1 2 3 4 5 6 
+Tape2  : 1 1 1 1 1 1 1 
+Head2  :       ^       
+---------------------------------------------
+Step   : 141
+State  : test2
+Index0 : 0 
+Tape0  : 1 
+Head0  : ^ 
+Index1 : 0 1 2 
+Tape1  : 1 1 1 
+Head1  :     ^ 
+Index2 : 0 1 2 3 4 5 6 
+Tape2  : 1 1 1 1 1 1 1 
+Head2  :       ^       
+---------------------------------------------
+Step   : 142
+State  : test2
+Index0 : 0 1 
+Tape0  : 1 _ 
+Head0  :   ^ 
+Index1 : 0 1 2 
+Tape1  : 1 1 1 
+Head1  :     ^ 
+Index2 : 0 1 2 3 4 5 6 
+Tape2  : 1 1 1 1 1 1 1 
+Head2  :         ^     
+---------------------------------------------
+Step   : 143
+State  : testb2
+Index0 : 0 
+Tape0  : 1 
+Head0  : ^ 
+Index1 : 0 1 2 
+Tape1  : 1 1 1 
+Head1  :     ^ 
+Index2 : 0 1 2 3 4 5 6 
+Tape2  : 1 1 1 1 1 1 1 
+Head2  :         ^     
+---------------------------------------------
+Step   : 144
+State  : testb2
+Index0 : 1 0 
+Tape0  : _ 1 
+Head0  : ^   
+Index1 : 0 1 2 
+Tape1  : 1 1 1 
+Head1  :     ^ 
+Index2 : 0 1 2 3 4 5 6 
+Tape2  : 1 1 1 1 1 1 1 
+Head2  :         ^     
+---------------------------------------------
+Step   : 145
+State  : test2
+Index0 : 0 
+Tape0  : 1 
+Head0  : ^ 
+Index1 : 0 1 2 
+Tape1  : 1 1 1 
+Head1  :     ^ 
+Index2 : 0 1 2 3 4 5 6 
+Tape2  : 1 1 1 1 1 1 1 
+Head2  :         ^     
+---------------------------------------------
+Step   : 146
+State  : test2
+Index0 : 0 1 
+Tape0  : 1 _ 
+Head0  :   ^ 
+Index1 : 0 1 2 
+Tape1  : 1 1 1 
+Head1  :     ^ 
+Index2 : 0 1 2 3 4 5 6 
+Tape2  : 1 1 1 1 1 1 1 
+Head2  :           ^   
+---------------------------------------------
+Step   : 147
+State  : testb2
+Index0 : 0 
+Tape0  : 1 
+Head0  : ^ 
+Index1 : 0 1 2 
+Tape1  : 1 1 1 
+Head1  :     ^ 
+Index2 : 0 1 2 3 4 5 6 
+Tape2  : 1 1 1 1 1 1 1 
+Head2  :           ^   
+---------------------------------------------
+Step   : 148
+State  : testb2
+Index0 : 1 0 
+Tape0  : _ 1 
+Head0  : ^   
+Index1 : 0 1 2 
+Tape1  : 1 1 1 
+Head1  :     ^ 
+Index2 : 0 1 2 3 4 5 6 
+Tape2  : 1 1 1 1 1 1 1 
+Head2  :           ^   
+---------------------------------------------
+Step   : 149
+State  : test2
+Index0 : 0 
+Tape0  : 1 
+Head0  : ^ 
+Index1 : 0 1 2 
+Tape1  : 1 1 1 
+Head1  :     ^ 
+Index2 : 0 1 2 3 4 5 6 
+Tape2  : 1 1 1 1 1 1 1 
+Head2  :           ^   
+---------------------------------------------
+Step   : 150
+State  : test2
+Index0 : 0 1 
+Tape0  : 1 _ 
+Head0  :   ^ 
+Index1 : 0 1 2 
+Tape1  : 1 1 1 
+Head1  :     ^ 
+Index2 : 0 1 2 3 4 5 6 
+Tape2  : 1 1 1 1 1 1 1 
+Head2  :             ^ 
+---------------------------------------------
+Step   : 151
+State  : testb2
+Index0 : 0 
+Tape0  : 1 
+Head0  : ^ 
+Index1 : 0 1 2 
+Tape1  : 1 1 1 
+Head1  :     ^ 
+Index2 : 0 1 2 3 4 5 6 
+Tape2  : 1 1 1 1 1 1 1 
+Head2  :             ^ 
+---------------------------------------------
+Step   : 152
+State  : testb2
+Index0 : 1 0 
+Tape0  : _ 1 
+Head0  : ^   
+Index1 : 0 1 2 
+Tape1  : 1 1 1 
+Head1  :     ^ 
+Index2 : 0 1 2 3 4 5 6 
+Tape2  : 1 1 1 1 1 1 1 
+Head2  :             ^ 
+---------------------------------------------
+Step   : 153
+State  : test2
+Index0 : 0 
+Tape0  : 1 
+Head0  : ^ 
+Index1 : 0 1 2 
+Tape1  : 1 1 1 
+Head1  :     ^ 
+Index2 : 0 1 2 3 4 5 6 
+Tape2  : 1 1 1 1 1 1 1 
+Head2  :             ^ 
+---------------------------------------------
+Step   : 154
+State  : test2
+Index0 : 0 1 
+Tape0  : 1 _ 
+Head0  :   ^ 
+Index1 : 0 1 2 
+Tape1  : 1 1 1 
+Head1  :     ^ 
+Index2 : 0 1 2 3 4 5 6 7 
+Tape2  : 1 1 1 1 1 1 1 _ 
+Head2  :               ^ 
+---------------------------------------------
+Step   : 155
+State  : final
+Index0 : 0 
+Tape0  : 1 
+Head0  : ^ 
+Index1 : 0 1 2 
+Tape1  : 1 1 1 
+Head1  :     ^ 
+Index2 : 0 1 2 3 4 5 6 
+Tape2  : 1 1 1 1 1 1 1 
+Head2  :             ^ 
+---------------------------------------------
+Result: 1
+==================== END ====================
